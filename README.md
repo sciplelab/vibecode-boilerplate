@@ -2,6 +2,15 @@
 
 Boilerplate/template for vibecoding apps for Bloomthis Tech.
 
+## Base prompt
+
+Use this prompt with your AI coding assistant to get started quickly:
+
+```text
+Clone this repository (https://github.com/sciplelab/vibecode-boilerplate.git) and start working directly in it.
+Use this as the base codebase, then help me implement features step by step.
+```
+
 ## How to use this template
 
 1. Clone this repository:
