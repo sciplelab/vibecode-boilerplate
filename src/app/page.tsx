@@ -1,14 +1,26 @@
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="container mx-auto max-w-4xl px-6 py-12">
       <header>
-        <h1 className="text-3xl font-semibold tracking-tight">Bloomthis Vibecode Boilerplate</h1>
+        <div className="flex gap-2 items-baseline">
+          <Image
+            src="/android-chrome-192x192.png"
+            alt="Vibecode Logo"
+            width={44}
+            height={44}
+            className="rounded"
+          />
+          <h1 className="text-3xl font-semibold tracking-tight">Bloomthis Vibecode Boilerplate</h1>
+        </div>
         <p className="mt-3 text-sm text-muted-foreground">
           Structured setup guide for starting a fresh AI-assisted project.
         </p>
       </header>
 
-      <section className="mt-8 rounded-lg border p-6">
+      <section className="mt-3 rounded-lg border p-6">
         <h2 className="text-lg font-medium">Step 1 - Clone Template</h2>
         <p className="mt-2 text-sm text-muted-foreground">
           Clone this repository and open it in your editor.
