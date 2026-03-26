@@ -7,7 +7,7 @@ Boilerplate/template for vibecoding apps for Bloomthis Tech.
 1. Clone this repository:
 
 ```bash
-git clone <this-repo-url> my-new-app
+git clone https://github.com/sciplelab/vibecode-boilerplate.git my-new-app
 cd my-new-app
 ```
 
